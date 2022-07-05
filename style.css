@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---box1---*/
+.box1 {
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(donation11.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.box11 h1 {
+    font-size: 65px;
+    color: white;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.box11 p {
+    color: rgb(216, 216, 216);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.box11 {
+    text-align: center;
+
+}
+
+.button {
+    background-color: tomato;
+    padding: 12px 22px;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+/*---donetd---*/
+.donate {
+    width: 100%;
+    height: 100vh;
+    margin-top: 6rem;
+    align-items: center;
+}
+
+.donate h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+
+.donate p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+
+.donate .donate_amount {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.donate .donate_amount .donate-card {
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px 2px rgba(226, 226, 226, 0.527);
+}
+
+.donate .donate_amount #selected {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.donate .donate_amount .donate-card h2 {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+}
+
+.donate form {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.donate form input {
+    display: block;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #DADADA;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+}
+
+.donate form button {
+    padding: 12px 20px;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*---box4---*/
+.donate_plan {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.donate_plan h1 {
+    text-align: center;
+    color: #121212;
+    font-size: 45px;
+}
+
+.donate_plan p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #5f2f2f;
+}
+
+.donate_plan .plan {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.donate_plan .plan .plan_card {
+    width: 360px;
+    height: 352px;
+    background-color: rgba(79, 157, 166, 0.1);
+    margin: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.donate_plan .plan #card1 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.donate_plan .plan #card2 {
+    background: #FFF4D6;
+}
+
+.donate_plan .plan .plan_card .plan_img {
+    width: 58px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.donate_plan .plan .plan_card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+}
+
+.donate_plan .plan .plan_card p {
+    text-align: start;
+    color: gray;
+}
+
+
+
+/*---box6---*/
+.box6 {
+    display: flex;
+}
+
+.box6 h2 {
+    color: darkorchid;
+}
+
+.box6 p {
+    color: #5f2f2f;
+}
+
+.box66 {
+    margin: 30px 60px;
+    padding: 30px;
+    background-color: #5f2f2f;
+}
+
+#box60 {
+    background-color: #7070709a;
+    border-left: 8px solid rgb(241, 113, 241);
+    border-radius: 20px 50px;
+    border-right: 7px solid pink;
+
+}
+
+#box70 {
+    background-color: #6e6060a2;
+    border-right: 8px solid rgb(241, 113, 241);
+    border-radius: 50px 20px;
+    border-left: 7px solid pink;
+}
+
+/*---box7---*/
+.newsletter {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter h1 {
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.newsletter p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+
+.newsletter .subscribe {
+    width: 809px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 33px auto;
+    background-color: #FFF4D6;
+    border-radius: 10px;
+}
+
+.newsletter .subscribe .subscribe_input {
+    width: 432px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter .subscribe .subscribe_input input {
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.newsletter .subscribe .subscribe_input button {
+    height: 100%;
+    width: 40%;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    padding: 2px 12px;
+    outline: none;
+}
+
+/*---box8---*/
+.box8 {
+    background-color: black;
+    width: 100%;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.box8 p {
+    color: #cccecf;
+    font-size: 18px;
+}
